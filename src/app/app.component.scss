@@ -8,14 +8,13 @@
   }
 
   &__return {
-    font-weight: bold;
     display: flex;
     align-items: center;
     padding: 10px 0px 8px 8px;
   }
 
   &__information {
-    margin: 10px;
+    margin: 10px 10px 60px 10px;
     display: flex;
 
     &__address {
@@ -23,16 +22,16 @@
 
       &__name {
         font-weight: bold;
-        font-size: 25px;
+        font-size: 35px;
       }
 
       &__address {
-        font-size: 13px;
-        margin-top: 10px;
+        font-size: 17px;
+        margin-top: 18px;
       }
 
       &__buttons {
-        margin-top: 20px;
+        margin-top: 50px;
         display: flex;
 
         button {
@@ -50,15 +49,103 @@
       &__score {
         &__number {
           margin-left: 10px;
+          font-size: 20px;
+        }
+      }
+
+      &__price {
+        font-size: 23px;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  &__notes {
+    &__title {
+      margin-top: 15px;
+      margin-left: 35px;
+    }
+
+    &__container {
+      background: #01002d;
+      padding: 30px 45px 25px 25px;
+      color: white;
+      font-size: 25px;
+      font-style: italic;
+      margin: 15px;
+      display: flex;
+      align-items: flex-start;
+      position: relative;
+
+      &__image {
+        margin-right: 15px;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+
+        img {
+          height: 64px;
+          margin-bottom: 10px;
+        }
+
+        &__text {
+
+          .link{
+            font-weight: bold;
+            text-decoration: underline;
+          }
+
+          .reply{
+            color: #16e7cf;
+            font-style: normal;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+
+            mat-icon{
+              margin-left: 5px;
+              font-size: 30px;
+              height: 30px;
+              width: 30px;
+            }
+          }
+        }
+      }
+
+
+      &__icon {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: #16e7cf;
+
+        mat-icon {
+          height: 40px;
+          width: 40px;
+          font-size: 40px;
         }
       }
     }
+  }
+
+  &__overview {
+  }
+
+  &__images {
+  }
+
+  &__building {
   }
 }
 
 footer {
   height: 320px;
   padding: 10px 0px 8px 8px;
+}
+
+.separator {
+  border: 1px solid #f2f2f2;
+  margin: 0px 10px;
 }
 
 ///////
