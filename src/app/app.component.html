@@ -11,7 +11,7 @@
   </div>
 
   <div class="content__carousel">
-    <img src="./../assets/carousel/carousel-1.png" />
+    <div class="content__carousel__image"></div>
   </div>
 
   <div class="content__information">
@@ -32,13 +32,13 @@
     <div class="content__information__stats">
       <div class="content__information__stats__score">
 
-        <div style="display: flex; align-items: center;">
-          <div class="item html">
+        <div class="circle-container">
+          <div class="item">
             <h2>85</h2>
             <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
               <g>
                 <title>Layer 1</title>
-                <circle stroke-linecap="round" class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="15"
+                <circle stroke-linecap="round" class="circle" r="69.85699" cy="81" cx="81" stroke-width="15"
                   stroke="#01002d" fill="none" />
               </g>
             </svg>
@@ -82,9 +82,86 @@
     </div>
   </div>
 
+  <div class="content__overview">
+    <h3 class="content__overview__title">Overview</h3>
+    <div class="content__overview__container">
+      <div class="vertical-line"></div>
+      <div class="content__overview__container__director">
+        <div class="content__overview__container__director__profile">
+          <div class="content__overview__container__director__profile__image">
+            <img src="./../assets/profile1.png" />
+          </div>
+          <div class="content__overview__container__director__profile__info">
+            <div class="content__overview__container__director__profile__info__name">
+              <h2>Patricia Finkelberg</h2>
+            </div>
+            <div class="content__overview__container__director__profile__info__role">
+              Executive Director
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content__overview__container__information">
+        <div class="content__overview__container__information__title">
+          <h2>A Vibrant Lifestyle–Independent Living and Assisted Living.</h2>
+        </div>
+        <div class="content__overview__container__information__text">
+          Brandywine Living at Huntington Terrace provides beautiful suites designed with comfort, privacy and safety in
+          mind. The grounds are beautifully landscaped and residents take advantage of the magnificent scenery in the
+          spring and fall.
+          Huntington Terrace is an extraordinary senior living community offering two distinct options: assisted living
+          and independent living; all on one beautiful 12-acre campus. Whether it is the resort-like setting of
+          independent living, the elegant, distinguished atmosphere of assisted living, or our state-of-the-art
+          Reflections memory care program, Huntington Terrace is designed to have something for everyone.
+          Whether it’s our extraordinary assisted living or our care-free independent apartments, our residents have
+          exciting, educational and, at times, adventurous activities that can rejuvenate the spirit and enhance the
+          quality of their lives.
+        </div>
+      </div>
+      <div class="vertical-line"></div>
+    </div>
+    <div class="separator"></div>
+  </div>
+
+  <div class="content__images">
+    <h3 class="content__images__title">Images</h3>
+    <div class="content__images__image"></div>
+    <div class="separator"></div>
+  </div>
+
+  <div class="content__building">
+    <h3 class="content__building__title">Building facts</h3>
+
+    <div class="content__building__facts">
+      <div class="items">
+        <div class="item item--title">Facts</div>
+        <div class="item">244 Units</div>
+        <div class="item">66 Stories</div>
+        <div class="item">4 Floors</div>
+      </div>
+
+      <div class="items">
+        <div class="item item--title">District</div>
+        <div class="item">Community District 101</div>
+        <div class="item">City Council District 1</div>
+        <div class="item">Police Precint 1</div>
+      </div>
+
+      <div class="items">
+        <div class="item item--title">Floorplans</div>
+        <div class="item item--link">77 Floorplans Available</div>
+      </div>
+    </div>
+
+    <h3 class="content__building__title">View More <mat-icon>add</mat-icon></h3>
+
+
+  </div>
 
   <footer>
     <div><img src="../assets/logo.png" /></div>
   </footer>
+
+
 </div>
 <router-outlet></router-outlet>
