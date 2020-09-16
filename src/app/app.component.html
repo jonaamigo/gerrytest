@@ -125,7 +125,9 @@
 
   <div class="content__images">
     <h3 class="content__images__title">Images</h3>
-    <div class="content__images__image"></div>
+
+    <ng-image-slider [images]="imageObject" [manageImageRatio]="true" #nav></ng-image-slider>
+
     <div class="separator"></div>
   </div>
 

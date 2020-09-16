@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/';
-
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,8 @@ import { MatIconModule } from '@angular/material/';
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
